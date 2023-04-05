@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841EBEA929CDC59300CA58DD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 841EBEA829CDC59300CA58DD /* GoogleService-Info.plist */; };
+		841EBEB429CDC80A00CA58DD /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EBEB329CDC80A00CA58DD /* MainTabView.swift */; };
+		841EBEB629CDC97D00CA58DD /* FeedsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EBEB529CDC97D00CA58DD /* FeedsView.swift */; };
+		841EBEB829CDCAAF00CA58DD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EBEB729CDCAAF00CA58DD /* LoginView.swift */; };
+		841EBEC029CDD18C00CA58DD /* Dosis-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 841EBEBD29CDD18C00CA58DD /* Dosis-SemiBold.ttf */; };
+		841EBEC129CDD18C00CA58DD /* Dosis-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 841EBEBE29CDD18C00CA58DD /* Dosis-ExtraBold.ttf */; };
+		841EBEC229CDD18C00CA58DD /* Dosis-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 841EBEBF29CDD18C00CA58DD /* Dosis-Regular.ttf */; };
+		841EBEC429CDD92F00CA58DD /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EBEC329CDD92F00CA58DD /* StartView.swift */; };
+		841EBEC629CDE7FC00CA58DD /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EBEC529CDE7FC00CA58DD /* TextFieldView.swift */; };
+		841EBEC829CDF2E100CA58DD /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EBEC729CDF2E100CA58DD /* AuthViewModel.swift */; };
+		841EBECA29CDF8F500CA58DD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EBEC929CDF8F500CA58DD /* ProfileView.swift */; };
+		841EBECC29CDF98000CA58DD /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EBECB29CDF98000CA58DD /* HistoryView.swift */; };
+		841EBED029CEDDCE00CA58DD /* BikeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EBECF29CEDDCE00CA58DD /* BikeModel.swift */; };
+		841EBED229CEDDDB00CA58DD /* BikeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EBED129CEDDDB00CA58DD /* BikeViewModel.swift */; };
+		841EBED629CEF68C00CA58DD /* FeedsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EBED529CEF68C00CA58DD /* FeedsDetailView.swift */; };
+		841EBED829CF35AC00CA58DD /* BikeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EBED729CF35AC00CA58DD /* BikeDetailView.swift */; };
+		841EBEDA29D8478400CA58DD /* Dosis-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 841EBED929D8478400CA58DD /* Dosis-Medium.ttf */; };
+		841EBEDC29D867ED00CA58DD /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EBEDB29D867ED00CA58DD /* DateView.swift */; };
+		842A3AD229CDB5DB009A41B7 /* SU_RideUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A3AD129CDB5DB009A41B7 /* SU_RideUpApp.swift */; };
+		842A3AD429CDB5DB009A41B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A3AD329CDB5DB009A41B7 /* ContentView.swift */; };
+		842A3AD629CDB5DC009A41B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842A3AD529CDB5DC009A41B7 /* Assets.xcassets */; };
+		842A3AD929CDB5DC009A41B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842A3AD829CDB5DC009A41B7 /* Preview Assets.xcassets */; };
+		84683D2E29D934D1006776F8 /* imageBikeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84683D2D29D934D1006776F8 /* imageBikeDetailView.swift */; };
+		84A62E5129DD621700E37FDA /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A62E5029DD621700E37FDA /* SuccessView.swift */; };
+		F0F6603E0EA0BC8C30E894BA /* Pods_SU_RideUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF1C5686A2BD513688067A1 /* Pods_SU_RideUp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DF1C5686A2BD513688067A1 /* Pods_SU_RideUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SU_RideUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		213046E42E5C97D506FA9DC3 /* Pods-SU_RideUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SU_RideUp.release.xcconfig"; path = "Target Support Files/Pods-SU_RideUp/Pods-SU_RideUp.release.xcconfig"; sourceTree = "<group>"; };
+		607945CB2F1568F99C6379A4 /* Pods-SU_RideUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SU_RideUp.debug.xcconfig"; path = "Target Support Files/Pods-SU_RideUp/Pods-SU_RideUp.debug.xcconfig"; sourceTree = "<group>"; };
+		841EBEA829CDC59300CA58DD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		841EBEB329CDC80A00CA58DD /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		841EBEB529CDC97D00CA58DD /* FeedsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsView.swift; sourceTree = "<group>"; };
+		841EBEB729CDCAAF00CA58DD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		841EBEBC29CDD00600CA58DD /* SU-RideUp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SU-RideUp-Info.plist"; sourceTree = SOURCE_ROOT; };
+		841EBEBD29CDD18C00CA58DD /* Dosis-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Dosis-SemiBold.ttf"; path = "../../../../Downloads/Dosis-2/static/Dosis-SemiBold.ttf"; sourceTree = "<group>"; };
+		841EBEBE29CDD18C00CA58DD /* Dosis-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-ExtraBold.ttf"; sourceTree = "<group>"; };
+		841EBEBF29CDD18C00CA58DD /* Dosis-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Dosis-Regular.ttf"; path = "../../../../Downloads/Dosis-2/static/Dosis-Regular.ttf"; sourceTree = "<group>"; };
+		841EBEC329CDD92F00CA58DD /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		841EBEC529CDE7FC00CA58DD /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		841EBEC729CDF2E100CA58DD /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		841EBEC929CDF8F500CA58DD /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		841EBECB29CDF98000CA58DD /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		841EBECF29CEDDCE00CA58DD /* BikeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeModel.swift; sourceTree = "<group>"; };
+		841EBED129CEDDDB00CA58DD /* BikeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeViewModel.swift; sourceTree = "<group>"; };
+		841EBED529CEF68C00CA58DD /* FeedsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsDetailView.swift; sourceTree = "<group>"; };
+		841EBED729CF35AC00CA58DD /* BikeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeDetailView.swift; sourceTree = "<group>"; };
+		841EBED929D8478400CA58DD /* Dosis-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Medium.ttf"; sourceTree = "<group>"; };
+		841EBEDB29D867ED00CA58DD /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		842A3ACE29CDB5DB009A41B7 /* SU_RideUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SU_RideUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		842A3AD129CDB5DB009A41B7 /* SU_RideUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SU_RideUpApp.swift; sourceTree = "<group>"; };
+		842A3AD329CDB5DB009A41B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		842A3AD529CDB5DC009A41B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		842A3AD829CDB5DC009A41B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84683D2D29D934D1006776F8 /* imageBikeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageBikeDetailView.swift; sourceTree = "<group>"; };
+		84A62E5029DD621700E37FDA /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		842A3ACB29CDB5DB009A41B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F6603E0EA0BC8C30E894BA /* Pods_SU_RideUp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840D96205C5E23CD654877B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF1C5686A2BD513688067A1 /* Pods_SU_RideUp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		841EBEAC29CDC75400CA58DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				841EBECF29CEDDCE00CA58DD /* BikeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		841EBEAD29CDC75C00CA58DD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				841EBEC729CDF2E100CA58DD /* AuthViewModel.swift */,
+				841EBED129CEDDDB00CA58DD /* BikeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		841EBEAE29CDC76300CA58DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				841EBEB129CDC78E00CA58DD /* Navigation */,
+				841EBEB029CDC78700CA58DD /* Screen */,
+				841EBEAF29CDC76A00CA58DD /* Shared */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		841EBEAF29CDC76A00CA58DD /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				841EBEC529CDE7FC00CA58DD /* TextFieldView.swift */,
+				841EBED529CEF68C00CA58DD /* FeedsDetailView.swift */,
+				841EBED729CF35AC00CA58DD /* BikeDetailView.swift */,
+				84683D2D29D934D1006776F8 /* imageBikeDetailView.swift */,
+				84A62E5029DD621700E37FDA /* SuccessView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		841EBEB029CDC78700CA58DD /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				841EBEB529CDC97D00CA58DD /* FeedsView.swift */,
+				841EBEB729CDCAAF00CA58DD /* LoginView.swift */,
+				841EBEC329CDD92F00CA58DD /* StartView.swift */,
+				841EBEC929CDF8F500CA58DD /* ProfileView.swift */,
+				841EBECB29CDF98000CA58DD /* HistoryView.swift */,
+				841EBEDB29D867ED00CA58DD /* DateView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		841EBEB129CDC78E00CA58DD /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				841EBEB329CDC80A00CA58DD /* MainTabView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		841EBEB229CDC7AD00CA58DD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				841EBED929D8478400CA58DD /* Dosis-Medium.ttf */,
+				841EBEBE29CDD18C00CA58DD /* Dosis-ExtraBold.ttf */,
+				841EBEBF29CDD18C00CA58DD /* Dosis-Regular.ttf */,
+				841EBEBD29CDD18C00CA58DD /* Dosis-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		842A3AC529CDB5DB009A41B7 = {
+			isa = PBXGroup;
+			children = (
+				842A3AD029CDB5DB009A41B7 /* SU_RideUp */,
+				842A3ACF29CDB5DB009A41B7 /* Products */,
+				9A19111D8F36FFED169DFC76 /* Pods */,
+				840D96205C5E23CD654877B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		842A3ACF29CDB5DB009A41B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				842A3ACE29CDB5DB009A41B7 /* SU_RideUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842A3AD029CDB5DB009A41B7 /* SU_RideUp */ = {
+			isa = PBXGroup;
+			children = (
+				841EBEBC29CDD00600CA58DD /* SU-RideUp-Info.plist */,
+				841EBEB229CDC7AD00CA58DD /* Fonts */,
+				841EBEAE29CDC76300CA58DD /* Views */,
+				841EBEAD29CDC75C00CA58DD /* ViewModels */,
+				841EBEAC29CDC75400CA58DD /* Models */,
+				842A3AD129CDB5DB009A41B7 /* SU_RideUpApp.swift */,
+				841EBEA829CDC59300CA58DD /* GoogleService-Info.plist */,
+				842A3AD329CDB5DB009A41B7 /* ContentView.swift */,
+				842A3AD529CDB5DC009A41B7 /* Assets.xcassets */,
+				842A3AD729CDB5DC009A41B7 /* Preview Content */,
+			);
+			path = SU_RideUp;
+			sourceTree = "<group>";
+		};
+		842A3AD729CDB5DC009A41B7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				842A3AD829CDB5DC009A41B7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9A19111D8F36FFED169DFC76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				607945CB2F1568F99C6379A4 /* Pods-SU_RideUp.debug.xcconfig */,
+				213046E42E5C97D506FA9DC3 /* Pods-SU_RideUp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		842A3ACD29CDB5DB009A41B7 /* SU_RideUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842A3ADC29CDB5DC009A41B7 /* Build configuration list for PBXNativeTarget "SU_RideUp" */;
+			buildPhases = (
+				95F9565DCF5E62924F30178F /* [CP] Check Pods Manifest.lock */,
+				842A3ACA29CDB5DB009A41B7 /* Sources */,
+				842A3ACB29CDB5DB009A41B7 /* Frameworks */,
+				842A3ACC29CDB5DB009A41B7 /* Resources */,
+				2DEEA0C6F6AC37E4834A2DCC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SU_RideUp;
+			productName = SU_RideUp;
+			productReference = 842A3ACE29CDB5DB009A41B7 /* SU_RideUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		842A3AC629CDB5DB009A41B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					842A3ACD29CDB5DB009A41B7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 842A3AC929CDB5DB009A41B7 /* Build configuration list for PBXProject "SU_RideUp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 842A3AC529CDB5DB009A41B7;
+			productRefGroup = 842A3ACF29CDB5DB009A41B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				842A3ACD29CDB5DB009A41B7 /* SU_RideUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		842A3ACC29CDB5DB009A41B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841EBEDA29D8478400CA58DD /* Dosis-Medium.ttf in Resources */,
+				841EBEC029CDD18C00CA58DD /* Dosis-SemiBold.ttf in Resources */,
+				842A3AD929CDB5DC009A41B7 /* Preview Assets.xcassets in Resources */,
+				842A3AD629CDB5DC009A41B7 /* Assets.xcassets in Resources */,
+				841EBEC129CDD18C00CA58DD /* Dosis-ExtraBold.ttf in Resources */,
+				841EBEC229CDD18C00CA58DD /* Dosis-Regular.ttf in Resources */,
+				841EBEA929CDC59300CA58DD /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DEEA0C6F6AC37E4834A2DCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SU_RideUp/Pods-SU_RideUp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SU_RideUp/Pods-SU_RideUp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SU_RideUp/Pods-SU_RideUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95F9565DCF5E62924F30178F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SU_RideUp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		842A3ACA29CDB5DB009A41B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84683D2E29D934D1006776F8 /* imageBikeDetailView.swift in Sources */,
+				841EBEDC29D867ED00CA58DD /* DateView.swift in Sources */,
+				84A62E5129DD621700E37FDA /* SuccessView.swift in Sources */,
+				841EBEB629CDC97D00CA58DD /* FeedsView.swift in Sources */,
+				841EBECA29CDF8F500CA58DD /* ProfileView.swift in Sources */,
+				841EBED829CF35AC00CA58DD /* BikeDetailView.swift in Sources */,
+				841EBEC629CDE7FC00CA58DD /* TextFieldView.swift in Sources */,
+				842A3AD429CDB5DB009A41B7 /* ContentView.swift in Sources */,
+				842A3AD229CDB5DB009A41B7 /* SU_RideUpApp.swift in Sources */,
+				841EBEC829CDF2E100CA58DD /* AuthViewModel.swift in Sources */,
+				841EBED229CEDDDB00CA58DD /* BikeViewModel.swift in Sources */,
+				841EBEC429CDD92F00CA58DD /* StartView.swift in Sources */,
+				841EBED629CEF68C00CA58DD /* FeedsDetailView.swift in Sources */,
+				841EBECC29CDF98000CA58DD /* HistoryView.swift in Sources */,
+				841EBEB829CDCAAF00CA58DD /* LoginView.swift in Sources */,
+				841EBED029CEDDCE00CA58DD /* BikeModel.swift in Sources */,
+				841EBEB429CDC80A00CA58DD /* MainTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		842A3ADA29CDB5DC009A41B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		842A3ADB29CDB5DC009A41B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		842A3ADD29CDB5DC009A41B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 607945CB2F1568F99C6379A4 /* Pods-SU_RideUp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SU_RideUp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SU-RideUp-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "su.ac.th.plaimee.p.SU-RideUp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		842A3ADE29CDB5DC009A41B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 213046E42E5C97D506FA9DC3 /* Pods-SU_RideUp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SU_RideUp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SU-RideUp-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "su.ac.th.plaimee.p.SU-RideUp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		842A3AC929CDB5DB009A41B7 /* Build configuration list for PBXProject "SU_RideUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842A3ADA29CDB5DC009A41B7 /* Debug */,
+				842A3ADB29CDB5DC009A41B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842A3ADC29CDB5DC009A41B7 /* Build configuration list for PBXNativeTarget "SU_RideUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842A3ADD29CDB5DC009A41B7 /* Debug */,
+				842A3ADE29CDB5DC009A41B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 842A3AC629CDB5DB009A41B7 /* Project object */;
+}

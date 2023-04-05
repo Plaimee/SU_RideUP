@@ -1,0 +1,6 @@
+framework module Pods_SU_RideUp {
+  umbrella header "Pods-SU_RideUp-umbrella.h"
+
+  export *
+  module * { export * }
+}
